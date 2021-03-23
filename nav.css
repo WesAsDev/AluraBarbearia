@@ -1,0 +1,55 @@
+header{
+    background: #bbbbbb;
+    margin: 0;
+    border: 0;
+    padding: 20px 0;
+}
+
+.box{
+    position:relative;
+    width:960px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right:0;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+nav a:hover{
+    color: #dd6767;
+    text-decoration: underline;
+
+}
+
+nav a:active{
+    color: #ac5151;
+}
+
+@media screen and (max-width: 480px){
+    .box{
+        width: auto;
+
+    }
+
+    nav{
+        position: static;
+        text-align: center;
+    }
+}
